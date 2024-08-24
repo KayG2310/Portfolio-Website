@@ -1,0 +1,44 @@
+.greetings_section{
+    width: 150%;
+}
+
+.signature{
+    margin-top: 10px;
+    font-family: "Pacifico", cursive;
+    color: #f1ebc9;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.intro{
+    font-size: 100px;
+    color: #f1ebc9;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 900;
+
+}
+.intropara{
+    font-size: 20px;
+    color: #dbd6bc;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.resumeLink a{
+    color: #dbd6bc;
+    margin-top: 80px;
+    margin-left: 1150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+.footer{
+    color: #dbd6bc;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+}

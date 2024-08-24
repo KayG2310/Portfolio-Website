@@ -1,0 +1,11 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+}
+.projectsText{
+    font-size: 100px;
+    color: #dbd6bc;
+    margin-top: 350px;
+    margin-left: 30px;
+    font-family: "Fjalla One", sans-serif;
+}
