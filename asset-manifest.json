@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.e4b32020.css",
-    "main.js": "/Portfolio-Website/static/js/main.9b4c2e15.js",
+    "main.css": "/Portfolio-Website/static/css/main.1cb82481.css",
+    "main.js": "/Portfolio-Website/static/js/main.0b888299.js",
     "static/js/453.aac68abc.chunk.js": "/Portfolio-Website/static/js/453.aac68abc.chunk.js",
     "static/media/painter.png": "/Portfolio-Website/static/media/painter.dd425ebf538765d75dcf.png",
     "static/media/tic.png": "/Portfolio-Website/static/media/tic.928f556c5c62b3cc8d0a.png",
     "static/media/Kamakshi_Gupta.pdf": "/Portfolio-Website/static/media/Kamakshi_Gupta.c360d951e3cadb6da292.pdf",
+    "static/media/web.png": "/Portfolio-Website/static/media/web.da469177d2211ed3c6d7.png",
     "static/media/mat.png": "/Portfolio-Website/static/media/mat.f024fb72979439586fb9.png",
+    "static/media/sudoku.png": "/Portfolio-Website/static/media/sudoku.d1bf4c1e5a48b76dea5f.png",
     "static/media/sk.png": "/Portfolio-Website/static/media/sk.a890d60323f3bd90945e.png",
     "static/media/profilePhoto.jpeg": "/Portfolio-Website/static/media/profilePhoto.7389fce22db553e85ac3.jpeg",
     "static/media/html.png": "/Portfolio-Website/static/media/html.00e94216faefb44427af.png",
@@ -19,16 +21,17 @@
     "static/media/css.png": "/Portfolio-Website/static/media/css.3b5b5d3f7a51f81b08be.png",
     "static/media/tf.png": "/Portfolio-Website/static/media/tf.d11015c8629213acd0d2.png",
     "static/media/numpy.png": "/Portfolio-Website/static/media/numpy.1bd13ce0145f0efeae71.png",
+    "static/media/memory.svg": "/Portfolio-Website/static/media/memory.4ce4613895b171d14fea3d7a7cb10029.svg",
     "static/media/git2.png": "/Portfolio-Website/static/media/git2.637e9a4ac9a6bb7bd827.png",
     "static/media/sql.png": "/Portfolio-Website/static/media/sql.a04abbf76b39676bc4d9.png",
     "static/media/js.png": "/Portfolio-Website/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.e4b32020.css.map": "/Portfolio-Website/static/css/main.e4b32020.css.map",
-    "main.9b4c2e15.js.map": "/Portfolio-Website/static/js/main.9b4c2e15.js.map",
+    "main.1cb82481.css.map": "/Portfolio-Website/static/css/main.1cb82481.css.map",
+    "main.0b888299.js.map": "/Portfolio-Website/static/js/main.0b888299.js.map",
     "453.aac68abc.chunk.js.map": "/Portfolio-Website/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4b32020.css",
-    "static/js/main.9b4c2e15.js"
+    "static/css/main.1cb82481.css",
+    "static/js/main.0b888299.js"
   ]
 }
