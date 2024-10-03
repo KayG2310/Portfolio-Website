@@ -1,7 +1,7 @@
 .dabba {
     border: solid #f1ebc9 1px;
-    margin-top: 140px;
-    margin-left: 80px;
+    /* margin-top: 140px; */
+    /* margin-left: 80px; */
     overflow: hidden; 
     transition: transform 0.8s ease-in-out;
     display: flex;
@@ -9,6 +9,7 @@
     align-items: center;
     aspect-ratio: 1 / 1.2; 
     width: 450px; /* Set a consistent width */
+    margin-bottom: 10px;
 }
 
 .dabba img {
@@ -23,14 +24,18 @@
     transform: scale(1.05);
 }
 
-.projectName {
+.namee {
     color: #f1ebc9;
-    text-align: center;
-    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }

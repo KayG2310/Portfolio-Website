@@ -1,44 +1,126 @@
-.greetings_section{
-    width: 150%;
+/* Global Container */
+.greetings_section {
+    width: 100%; /* Adjust to 100% width */
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; /* Align text to the left */
+    padding-left: 30px; /* Padding instead of margin for alignment */
+    margin-right: 100px;
 }
 
-.signature{
+/* Signature */
+.signature {
     margin-top: 10px;
     font-family: "Pacifico", cursive;
     color: #f1ebc9;
     font-size: 30px;
-    margin-left: 30px;
 }
-.intro{
-    font-size: 100px;
+
+/* Main Heading */
+.intro {
+    font-size: 100px; /* Keep original size */
     color: #f1ebc9;
     margin-top: 100px;
-    margin-left: 30px;
+    padding-left: 30px; /* Replacing margin-left with padding */
     font-family: "Oxygen", sans-serif;
     font-weight: 900;
-
 }
-.intropara{
+
+/* Subtext */
+.intropara {
     font-size: 20px;
     color: #dbd6bc;
     margin-top: 100px;
-    margin-left: 30px;
+    padding-left: 30px; /* Replace margin-left */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
-.resumeLink a{
+
+/* Resume Link */
+.resumeLink a {
     color: #dbd6bc;
     margin-top: 80px;
-    margin-left: 1150px;
+    margin-left: 1150px; /* Keep large left margin for big screens */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 50;
     text-decoration: underline;
     white-space: nowrap;
 }
-.footer{
+
+/* Footer */
+.footer {
     color: #dbd6bc;
     margin-top: 100px;
-    margin-left: 30px;
+    padding-left: 30px; /* Replace margin-left */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 50;
+}
+
+/* Responsive Adjustments for Medium Screens */
+@media (max-width: 1024px) {
+    .intro {
+        font-size: 70px;
+        margin-top: 80px;
+        padding-left: 30px; /* Keep left alignment */
+    }
+    .intropara {
+        font-size: 18px;
+        margin-top: 60px;
+        padding-left: 30px; /* Align with intro */
+    }
+    .resumeLink a {
+        margin-left: 30px; /* Center on smaller screens */
+    }
+    .footer {
+        padding-left: 30px;
+    }
+}
+
+/* Responsive Adjustments for Small Screens */
+@media (max-width: 768px) {
+    .greetings_section {
+        align-items: center; /* Center-align for smaller screens */
+        padding: 0; /* Remove padding */
+    }
+    .signature {
+        font-size: 24px; /* Smaller signature size */
+    }
+    .intro {
+        font-size: 50px;
+        margin-top: 60px;
+    }
+    .intropara {
+        font-size: 16px;
+        margin-top: 50px;
+        padding-left: 0; /* Center-align */
+        text-align: center; /* Center-align text */
+    }
+    .resumeLink a {
+        margin-left: 0; /* Center the resume link */
+        text-align: center; /* Align text in the center */
+        display: block; /* Full-width link */
+    }
+    .footer {
+        margin-top: 50px;
+        text-align: center; /* Center footer text */
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+    .intro {
+        font-size: 40px;
+    }
+    .intropara {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .resumeLink a {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .footer {
+        font-size: 10px;
+        margin-top: 20px;
+    }
 }

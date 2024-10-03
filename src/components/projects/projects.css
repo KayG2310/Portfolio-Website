@@ -1,11 +1,27 @@
 .projects{
     display: flex;
     flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .projectsText{
     font-size: 100px;
     color: #dbd6bc;
-    margin-top: 350px;
-    margin-left: 30px;
+    /* margin-top: 350px; */
+    /* margin-left: 0px; */
     font-family: "Fjalla One", sans-serif;
+}
+.projectheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+.totalcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }

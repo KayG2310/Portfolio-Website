@@ -1,46 +1,96 @@
-*{
-  background-color: #140d0d;
+/* General Reset */
+* {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  background-color: #140d0d; /* Global background color */
 }
+
+/* Main App Container */
 .App {
   text-align: center;
 }
-.home{
+
+/* Home Container */
+.home {
   display: flex;
   flex-direction: row;
   width: 100vw;
   height: 100vh;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  overflow-x: auto; /* Enable horizontal scrolling if content overflows */
 }
 
+/* Logo Styling */
+.App-logo {
+  height: 40vmin; /* Responsive size for logo */
+  pointer-events: none; /* Disable pointer events */
+}
+
+/* Animation for Logo */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+      animation: App-logo-spin infinite 20s linear; /* Animation for logo spinning */
   }
 }
 
+/* Header Styling */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #282c34; /* Header background color */
+  min-height: 100vh; /* Minimum height for the header */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column; /* Column layout */
+  align-items: center; /* Center align items */
+  justify-content: center; /* Center content */
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white; /* Text color */
 }
 
+/* Link Styling */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Link color */
 }
 
+/* Keyframes for Logo Animation */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+      transform: rotate(0deg); /* Start rotation */
   }
   to {
-    transform: rotate(360deg);
+      transform: rotate(360deg); /* End rotation */
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .home {
+      flex-direction: column; /* Change to column layout on smaller screens */
+  }
+
+  .App-header {
+      min-height: 80vh; /* Reduce header height */
+  }
+
+  .App-logo {
+      height: 30vmin; /* Adjust logo size */
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+      font-size: calc(8px + 2vmin); /* Reduce font size for smaller screens */
+  }
+
+  .App-logo {
+      height: 25vmin; /* Further reduce logo size */
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+      font-size: calc(6px + 2vmin); /* Reduce font size further for mobile */
+  }
+
+  .App-logo {
+      height: 20vmin; /* Reduce logo size for mobile */
   }
 }

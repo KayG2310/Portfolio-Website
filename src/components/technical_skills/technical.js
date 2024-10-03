@@ -17,38 +17,47 @@ import tf from '/Users/kamakshigupta/Desktop/React/portfolio_website/src/assets/
 import sk from '/Users/kamakshigupta/Desktop/React/portfolio_website/src/assets/sk.png'
 import mat from '/Users/kamakshigupta/Desktop/React/portfolio_website/src/assets/mat.png'
 export default function Technical() {
-  return (
-    <div className='technical_section'>
-        <div className='headings'>
-            <p className='heading1'>TECHNICAL</p>
-            <p className='heading2'>SKILLS</p>
-        </div>
-        <div className='skills'>
-            <div className='codingLanguages'>
-                <p className='codingLangs'>Programming Languages</p>
-                <Languages languagelogo={cpp} name='C++'/>
-                <Languages languagelogo={python} name='Python'/>
-                <Languages languagelogo={c} name='C'/>
-                <Languages languagelogo={js} name='Javascript'/>
-            </div>
-            <div className='webtechs'>
-                <p className='codingLangs'>Web Technologies</p>
-                <Languages languagelogo={html} name='HTML'/>
-                <Languages languagelogo={css} name='CSS'/>
-                <Languages languagelogo={react} name='ReactJS'/>
-            </div>
-            <div className='tools'>
-                <p className='codingLangs'>Tools & Libraries</p>
-                <Languages languagelogo={vs} name='VS Code'/>
-                <Languages languagelogo={git} name='Github'/>
-                <Languages languagelogo={sql} name='MySQL'/>
-                <Languages languagelogo={numpy} name='NumPy'/>
-                <Languages languagelogo={pan} name='Pandas'/>
-                <Languages languagelogo={tf} name='Tensorflow'/>
-                <Languages languagelogo={sk} name='Scikit-Learn'/>
-                <Languages languagelogo={mat} name='MatPlotLib'/>
-            </div>
-        </div>
-    </div>
-  )
-}
+    return (
+      <div className='technical_section'>
+          <div className='headings'>
+              <p className='headings1'>TECHNICAL</p>
+              <p className='headings2'>SKILLS</p>
+          </div>
+          <div className='skills'>
+              <div className='codingLanguages'>
+                  <p className='codingLangs'>Programming Languages</p>
+                  <div className='logos'>
+                      <Languages languagelogo={cpp} name='C++'/>
+                      <Languages languagelogo={python} name='Python'/>
+                      <Languages languagelogo={c} name='C'/>
+                      <Languages languagelogo={js} name='Javascript'/>
+                  </div>
+              </div>
+              <div className='webtechs'>
+                  <p className='codingLangs'>Web Technologies</p>
+                  <div className='logos'>
+  
+                      <Languages languagelogo={html} name='HTML'/>
+                      <Languages languagelogo={css} name='CSS'/>
+                      <Languages languagelogo={react} name='ReactJS'/>
+                  </div>
+              </div>
+              <div className='tools'>
+                  <p className='codingLangs'>Tools & Libraries</p>
+                  <div className='logos'>
+  
+                      <Languages languagelogo={vs} name='VS Code'/>
+                      <Languages languagelogo={git} name='Github'/>
+                      <Languages languagelogo={sql} name='MySQL'/>
+                      <Languages languagelogo={numpy} name='NumPy'/>
+                      <Languages languagelogo={pan} name='Pandas'/>
+                      <Languages languagelogo={tf} name='Tensorflow'/>
+                      <Languages languagelogo={sk} name='Scikit-Learn'/>
+                      <Languages languagelogo={mat} name='MatPlotLib'/>
+                  </div>
+              </div>
+          </div>
+      </div>
+    )
+  }
+  

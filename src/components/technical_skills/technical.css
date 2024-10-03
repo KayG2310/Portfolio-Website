@@ -1,50 +1,57 @@
 .technical_section{
-    margin-left: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     flex-direction: row;
 }
 .codingLanguages{
     display: flex;
     flex-direction: row;
-    /* margin-top: 90px; */
+    align-items: center;
+
 }
 .webtechs{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    align-items: center;
+
 }
 .tools{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    align-items: center;
 }
 .codingLangs{
     color: #f1ebc9;
-    text-align: center;
+    /* text-align: center; */
     font-size: 25px;
 }
-.heading1{
+.headings1{
     font-size: 100px;
     color: #dbd6bc;
-    margin-top: 270px;
-    margin-left: 30px;
-    margin-bottom: 0px;
     font-family: "Fjalla One", sans-serif;
 }
-.heading2{
+.headings2{
     font-size: 100px;
     color: #dbd6bc;
-    margin-left: 30px;
-    margin-top: 0px;
     font-family: "Fjalla One", sans-serif;
 }
 .headings{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .skills{
     display: flex;
     flex-direction: column;
     margin-left: 200px;
     justify-content: center;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -6,7 +6,11 @@ export default function Cards(props) {
         <div className='dabba'>
             <a href={props.link} target='blank'><img src={props.image} className='image'></img></a>
         </div>
+        <div className='namee'>
+
+
         <p className='projectName'>{props.name}</p>
+        </div>
     </div>
     
   )

@@ -23,7 +23,7 @@ export default function About() {
 
             <div className='description'>
                 <h1 className='name'>Kamakshi Gupta</h1>
-                <p>
+                <p className='details'>
                     I'm a budding software developer currently pursuing a Bachelor of Technology in Artificial Intelligence and Data Engineering at the Indian Institute of Technology, Ropar. 
                     With a strong foundation in C++, Python, and web technologies like HTML and CSS, I am passionate about leveraging my skills to solve real-world problems. 
                     My journey in the world of technology has just begun, and I am eager to learn, explore, and contribute to impactful projects.
